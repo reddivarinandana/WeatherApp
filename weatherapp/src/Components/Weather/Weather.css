@@ -1,0 +1,138 @@
+.body{
+    text-align: center;
+    height: 100vh;
+    border: 3px solid #ff7f50;
+    /* width: 100%; */
+    background-color: antiquewhite;
+
+}
+
+.layout{
+    background-color: antiquewhite;
+}
+
+nav{
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color: white;
+    width: 100%;
+}
+
+.image{
+    height: 50px;
+    width: 50px;
+}
+
+.Input{
+    padding:15px 100px 15px 10px;
+    margin-top: 50px;
+    border: 1px solid black;
+}
+
+.button {
+    padding: 12px 12px;
+    font-size: 18px;
+    background-color: #ff7f50;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.button:hover {
+    background-color: white;
+    color: #ff7f50;
+    border-color: 1px solid #ff7f50;
+    box-shadow: 0 0 20px rgba(236, 7, 7, 0.7);
+}
+
+.mainlayout{
+    width: 550px;
+    height: 420px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: 1px solid red;
+    margin-top: 120px;
+}
+
+.cloudy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.Text{
+    font-size: 18px;
+}
+  
+.wind{
+    border-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.display{
+    display: flex;
+    margin-left: 100px;
+}
+.humidity{
+    display: flex;
+    justify-content: center;
+    margin-left: 18px;
+}
+
+.minimage{
+    display: flex;
+    justify-content: center;
+}
+
+.sunny{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+}
+
+.humidityimage{
+    height: 30px;
+    width: 50px;
+}
+
+.totallayout{
+    display: flex;
+    justify-content: center;
+}
+
+.windimage{
+    height: 40px;
+    width: 30px;
+}
+
+.div2{
+    line-height: 5px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .mainlayout {
+      width: 80%; 
+    }
+    .Input{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .mainlayout {
+      width: 100%; 
+    }
+    .Input{
+        width: 100%;
+    }
+}
+
+
